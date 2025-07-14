@@ -1,0 +1,63 @@
+/* Dashboard Container */
+.dashboard {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    background: linear-gradient(135deg, #003366, #0066cc);
+    color: white;
+}
+
+/* Title & Section Headings */
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #ffcc00;
+}
+
+/* Grid Layout */
+.weather-grid, .crypto-grid, .news-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/* Cards for Weather & Crypto */
+.info-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+}
+
+/* News Headlines */
+.news-item {
+    display: block;
+    /* background: rgba(255, 255, 255, 0.2); */
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: rgb(233, 231, 238);
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.news-item:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
